@@ -53,7 +53,7 @@ sudo apt update
 sudo apt install nmap
 Make the Script Executable:
 chmod +x scan.sh
-🚀 Usage
+**🚀 Usage**
 To run a scan and save the output:
 ./scan.sh <target-ip-or-domain> <output-file-path>
 Example 1: Scan an IP and store output
