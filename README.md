@@ -1,94 +1,73 @@
-# Automated Network Reconnaissance using Nmap and Bash
+# 🔐 Automated Network Reconnaissance using Nmap and Bash
 
-**Author:** Lukesh Gulab Navghare
-**College/Batch:** G.H Raisoni Collage of Engineering and Management, Nagpur
-**Submission Date:** 11/05/2025
+**Author:** Lukesh Gulab Navghare  
+**College/Batch:** G.H Raisoni College of Engineering and Management, Nagpur  
+**Submission Date:** 11/05/2025  
 
 ---
 
 ## 🔍 Overview
 
-This mini-project simplifies one of the foundational tasks in cybersecurity: network reconnaissance. It leverages the power of **Nmap** integrated with a **Bash script** to automate basic scans on a target system or domain. The tool is designed to assist beginners in understanding practical network scanning operations with real-time output and logging.
+This mini-project simplifies one of the foundational tasks in cybersecurity: **network reconnaissance**. It leverages the power of **Nmap** integrated with a **Bash script** to automate basic scans on a target system or domain. The tool is designed to assist beginners in understanding practical network scanning operations with real-time output and logging.
 
 ---
 
 ## 🎯 Objectives
 
-- Understand and utilize basic Nmap functions such as Ping Scans, Port Scans, and OS Detection.
-- Learn to automate reconnaissance using Bash scripting.
-- Build a reusable command-line script that stores scan outputs for documentation and analysis and documentation.
+- Understand and utilize basic Nmap functions such as **Ping Scans**, **Port Scans**, and **OS Detection**.
+- Learn to automate reconnaissance using **Bash scripting**.
+- Build a **reusable command-line script** that stores scan outputs for documentation and analysis.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Nmap** – Network scanning tool
-- **Bash (Linux)** – Scripting language used for automation
-- **Kali Linux** – Operating system used for testing
-- **GitHub** – For version control and open-source sharing.
+- **Nmap** – Network scanning tool  
+- **Bash (Linux)** – Scripting language used for automation  
+- **Kali Linux** – Operating system used for testing  
+- **GitHub** – For version control and open-source sharing  
 
 ---
 
 ## 📁 Folder Structure
-├── README.md
-├── scan.sh
-├── results/
-│   └── targetname_scan.txt
-└── LICENSE
-# MIT Lience file
+├── README.md # Project overview and documentation
+├── scan.sh # Bash script to run Nmap scans
+├── results/ # Folder to store scan output
+│ └── targetname_scan.txt
+├── screenshots/ # Screenshots of script execution and results
+│ ├── scan-start.png
+│ └── output-preview.png
+└── LICENSE # Project license (MIT)
 
 ---
 
 ## ⚙️ Installation
 
-### 1. Clone the Repository
+1. **Clone the Repository** (if hosted on GitHub):
 
-```bash
-git clone https://github.com/lukesh85/automated-nmap-bash.git
-cd automated-nmap-bash
-2. Install Nmap (if not already installed)
-bash
-Copy code
+   ```bash
+   git clone https://github.com/lukesh85/nmap-bash-scanner.git
+   cd nmap-bash-scanner
+**Install Nmap (if not already installed):**
 sudo apt update
 sudo apt install nmap
-3. Make the Bash script executable
-bash
-Copy code
+Make the Script Executable:
 chmod +x scan.sh
 🚀 Usage
-Run the script using the following syntax:
-
-bash
-Copy code
-./scan.sh <target> <output_file_path>
-🔸 Example Usage
-bash
-Copy code
-# Scan a specific IP and save results
+To run a scan and save the output:
+./scan.sh <target-ip-or-domain> <output-file-path>
+Example 1: Scan an IP and store output
 ./scan.sh 192.168.1.10 results/192.168.1.10_scan.txt
-
-# Scan a domain
+Example 2: Scan a domain
 ./scan.sh example.com results/example.com_scan.txt
-## 🖼️ Screenshots
+**🖼️ Screenshots**
+Running the Script
 
-### Running the Script
-![Running the script](screenshots/scan-start.png)
 
-### Output File Example
-![Output Preview](screenshots/output-preview.png)
+Output File Example
 
-Action	Screenshot
-Running the Script	
-Host Discovery	
-Open Ports Detection	
-OS Detection	
-Output File Preview	
 
-📝 License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-vbnet
-Copy code
+**📄 License**
 MIT License
 
 Copyright (c) 2025 lukesh85
@@ -100,21 +79,13 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-[... full MIT license text ...]
-📬 Contact
-For queries or feedback:
-📧 lukesh85@proton.me
-🔗 GitHub Profile
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
 
----
-
-### ✅ Summary of Improvements:
-- Proper Markdown headings and styling.
-- Corrected spelling (`License`, `College`, `Bash`, etc.)
-- Folder tree with inline comments.
-- Ready-made placeholders for screenshots.
-- Example commands wrapped in `bash` blocks for clarity.
-- Optional contact footer (professional touch).
-
-Would you like me to upload this cleaned version directly as your `README.md` file content or help you with screenshot filename formatting before upload?
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
