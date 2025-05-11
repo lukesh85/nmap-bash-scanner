@@ -54,12 +54,18 @@ sudo apt install nmap
 Make the Script Executable:
 chmod +x scan.sh
 **🚀 Usage**
-To run a scan and save the output:
+🚀 Usage
+
+To run the Bash script, use Git Bash or a Bash terminal on Windows:
+
 ./scan.sh <target-ip-or-domain> <output-file-path>
+
 Example 1: Scan an IP and store output
 ./scan.sh 192.168.1.10 results/192.168.1.10_scan.txt
+
 Example 2: Scan a domain
 ./scan.sh example.com results/example.com_scan.txt
+
 **🖼️ Screenshots**
 Running the Script
 
